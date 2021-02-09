@@ -236,16 +236,16 @@
       "default": "Mevcut ipucu"
     },
     {
-      "label": "Label for correct answer",
+      "label": "Doğru cevap için etiket",
       "default": "Doğru cevap"
     },
     {
-      "label": "Label for incorrect answer",
+      "label": "Yanlış cevap için etiket",
       "default": "Yanlış cevap"
     },
     {
       "label": "Header for panel containing feedback for correct/incorrect answers",
-      "default": "Feedback"
+      "default": "Geribildirim"
     },
     {
       "label": "Textual representation of the score bar for those using a readspeaker",
