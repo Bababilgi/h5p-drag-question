@@ -19,16 +19,16 @@
           "fields": [
             {
               "label": "Arkaplan görüntüsü",
-              "description": "Optional. Select an image to use as background for your drag and drop task."
+              "description": "İsteğe bağlıdır.Sürekle bırak projesi için bir arkaplan görüntüsü eklemeni sağlar."
             },
             {
-              "label": "Task size",
-              "description": "Specify how large (in px) the play area should be."
+              "label": "Proje boyutu,
+              "description": "Oyun alanının ne büyüklükte olması gerektiğini belirtir."
             }
           ]
         },
         {
-          "label": "Task",
+          "label": "Proje",
           "description": "Start by placing your drop zones.<br />Next, place your droppable elements and check off the appropriate drop zones.<br />Last, edit your drop zone again and check off the correct answers.",
           "fields": [
             {
@@ -45,7 +45,7 @@
                   {},
                   {},
                   {
-                    "label": "Select drop zones"
+                    "label": "Bırakma alanı seç"
                   },
                   {
                     "label": "Arkaplan Şeffaflığı"
@@ -77,7 +77,7 @@
                     "label": "Select correct elements"
                   },
                   {
-                    "label": "Background Opacity"
+                    "label": "Arkaplan şeffaflığı"
                   },
                   {
                     "label": "İpuçları ve geri bildirim",
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "label": "Overall Feedback",
+      "label": "Genel geribildirim",
       "fields": [
         {
           "widgets": [
