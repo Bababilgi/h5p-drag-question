@@ -15,20 +15,20 @@
     {
       "fields": [
         {
-          "label": "Settings",
+          "label": "Ayarlar",
           "fields": [
             {
-              "label": "Background image",
-              "description": "Optional. Select an image to use as background for your drag and drop task."
+              "label": "Arkaplan görüntüsü",
+              "description": "İsteğe bağlıdır.Sürükle ve bırak projesinin arka planı için bir resim seçilebilir."
             },
             {
-              "label": "Task size",
+              "label": "Proje boyutu",
               "description": "Specify how large (in px) the play area should be."
             }
           ]
         },
         {
-          "label": "Task",
+          "label": "Proje",
           "description": "Start by placing your drop zones.<br />Next, place your droppable elements and check off the appropriate drop zones.<br />Last, edit your drop zone again and check off the correct answers.",
           "fields": [
             {
@@ -48,7 +48,7 @@
                     "label": "Bırakma alanı seç"
                   },
                   {
-                    "label": "Background Opacity"
+                    "label": "Arkaplan şeffaflığı"
                   },
                   {
                     "label": "Infinite number of element instances",
@@ -58,26 +58,26 @@
               }
             },
             {
-              "label": "Drop Zones",
-              "entity": "Drop Zone",
+              "label": "Bırakma Alanları",
+              "entity": "Bırakma Alanı",
               "field": {
-                "label": "Drop Zone",
+                "label": "Bırakma Alanı",
                 "fields": [
                   {
-                    "label": "Label"
+                    "label": "Etiket"
                   },
                   {
-                    "label": "Show label"
+                    "label": "Etiketi göster"
                   },
                   {},
                   {},
                   {},
                   {},
                   {
-                    "label": "Select correct elements"
+                    "label": "Doğru ögeleri seçiniz"
                   },
                   {
-                    "label": "Background Opacity"
+                    "label": "Arkaplan şeffaflığı"
                   },
                   {
                     "label": "İpuçları ve geri bildirim",
@@ -86,22 +86,22 @@
                         "label": "İpucu metni"
                       },
                       {
-                        "label": "Message displayed on correct match",
+                        "label": "Doğru olduğunda gösterilecek ileti",
                         "description": "Message will appear below the task on \"check\" if correct droppable is matched."
                       },
                       {
-                        "label": "Message displayed on incorrect match",
+                        "label": "Yanlış olduğunda gösterilecek ileti",
                         "description": "Message will appear below the task on \"check\" if the match is incorrect."
                       }
                     ]
                   },
                   {
-                    "label": "This drop zone can only contain one element",
-                    "description": "Make sure there is only one correct answer for this dropzone"
+                    "label": "Bu bırakma alanı sadece bir tane öge içerebilir",
+                    "description": "Bu bırakma alanı için sadece bir doğru cevap olduğundan emin olunuz"
                   },
                   {
-                    "label": "Enable Auto-Align",
-                    "description": "Will auto-align all draggables dropped in this zone."
+                    "label": "Otomatik hizalamayı etkinleştir",
+                    "description": "Bu alanda tüm sürüklenen ögeleri otomatik hizalayacaktır."
                   }
                 ]
               }
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "label": "Overall Feedback",
+      "label": "Genel Geribildirim",
       "fields": [
         {
           "widgets": [
@@ -125,7 +125,7 @@
           "field": {
             "fields": [
               {
-                "label": "Score Range"
+                "label": "Puan Aralığı"
               },
               {},
               {
@@ -185,8 +185,8 @@
           "label": "Spacing for Auto-Align (in px)"
         },
         {
-          "label": "Enable FullScreen",
-          "description": "Check this option to enable the full screen button."
+          "label": "Tam Ekranı Etkinleştir",
+          "description": "Tam ekran düğmesini etkinleştirmek için bu seçeneği işaretleyiniz."
         },
         {
           "label": "Show score points",
@@ -203,7 +203,7 @@
       "fields": [
         {
           "label": "Fullscreen label",
-          "default": "Fullscreen"
+          "default": "Tam ekran"
         },
         {
           "label": "Exit fullscreen label",
